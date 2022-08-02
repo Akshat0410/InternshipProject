@@ -27,7 +27,8 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="center"/>
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvCurTime"
